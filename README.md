@@ -1,6 +1,7 @@
 # 🚀 **JAVAFX JOURNEY**
 
-> 😎 **Relax, bro — it’s just code!**  
+ **Relax, bro — it’s just code! 😎**  
+ 
 > Experiment. Break things. Learn. Repeat.
 
 ---
@@ -11,6 +12,4 @@
 
 ---
 
-## 🧠 **Pro Tip**
-> Keep calm, write code, and enjoy the journey.  
-> _Every bug is just a new lesson in disguise._
+> _Your future self will thank you for every late-night fix._
