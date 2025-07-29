@@ -4,7 +4,6 @@
  
 ### Experiment. Learn. Repeat.
 
----
 
 ## 📌 **Resources to Get Started**
 - ▶️ [**Install IntelliJ IDEA**](https://www.youtube.com/watch?v=LuBI3xBDd_M)  
