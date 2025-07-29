@@ -64,13 +64,13 @@ public class Main extends Application {
         //Stage.setX(10); // Sets the stage’s X position on the screen in pixels (device-independent)
         //Stage.setY(50);
 
-        //every time the windo opens if we want to make it open full screen,
-        Stage.setFullScreen(true);// this is full screen mode, by pressing Esc button, we can escape form the full screen
+        //every time the window opens if we want to make it open full screen,
+        //Stage.setFullScreen(true);// this is full screen mode, by pressing Esc button, we can escape form the full screen
         // the escape key is by default is Esc , we can change it
         // lets show what to do:
-        Stage.setFullScreenExitHint("You Can't Escape unless you press q");
+        //Stage.setFullScreenExitHint("You Can't Escape unless you press q");
         // set that key
-        Stage.setFullScreenExitKeyCombination(KeyCombination.valueOf("q"));
+        //Stage.setFullScreenExitKeyCombination(KeyCombination.valueOf("q"));
 
 
         //now adding the Scene to stage
