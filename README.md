@@ -1,8 +1,8 @@
 # 🚀 **JAVAFX JOURNEY**
 
- **Relax, bro — it’s just code! 😎**  
+**Relax, bro — it’s just code! 😎**  
  
-### Experiment. Break things. Learn. Repeat.
+## Experiment. Learn. Repeat.
 
 ---
 
