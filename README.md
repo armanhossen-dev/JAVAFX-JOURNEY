@@ -1,5 +1,6 @@
 # 🚀 **JAVAFX-JOURNEY**
 
+### Feel free to experiment, break things, and try new ideas.
 **Relax bro, it's just the code!** 😎
 
 ---
