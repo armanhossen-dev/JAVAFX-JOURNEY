@@ -30,7 +30,6 @@ public class Main extends Application {
         Scene scene1 = new Scene(root,580,680, Color.SKYBLUE);
         Stage stg1 = new Stage();
 
-
         Image icon = new Image("logo.png");
         // if i add any icon so i must have to add the name, if its empty like this Image icon = new Image(""); then this will not run
         stg1.getIcons().add(icon);
