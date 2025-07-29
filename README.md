@@ -2,7 +2,7 @@
 
  **Relax, bro — it’s just code! 😎**  
  
-./ Experiment. Break things. Learn. Repeat.
+### Experiment. Break things. Learn. Repeat.
 
 ---
 
