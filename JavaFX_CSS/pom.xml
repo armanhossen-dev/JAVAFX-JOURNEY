@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>JavaFX_CSS_styling</artifactId>
+    <artifactId>JavaFX_CSS</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>JavaFX_CSS_styling</name>
+    <name>JavaFX_CSS</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,8 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.javafx_css_styling/com.example.javafx_css_styling.HelloApplication
-                            </mainClass>
+                            <mainClass>com.example.javafx_css/com.example.javafx_css.Main</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>

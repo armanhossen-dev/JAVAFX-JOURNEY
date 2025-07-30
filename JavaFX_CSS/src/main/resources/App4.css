@@ -1,0 +1,100 @@
+.root {
+    -fx-background-image: url("background.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: cover; /* cover / contain / auto */
+}
+
+#T1{
+    -fx-font-size: 22;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: "white";
+    -fx-effect: dropshadow(gaussian, black, 2, 0, 2, 2);
+    -fx-font-weight: 700;
+}
+
+#T2{
+    -fx-font-size: 30;
+    -fx-font-family: "Open Sans";
+    -fx-effect: dropshadow(gaussian, black, 2, 0, 2, 2);
+    -fx-text-fill: "Red";
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+}
+
+#bntgood{
+    -fx-font-size: 15;
+    -fx-background-color: "LimeGreen";
+    -fx-text-fill: "white";
+    -fx-font-weight: bold;
+}
+
+#bntgood:hover{
+      -fx-background-color: "Green";
+      -fx-text-fill: "white";
+}
+
+
+#btninfinity{
+    -fx-font-size: 15;
+    -fx-background-color: "Crimson";
+    -fx-text-fill: "white";
+    -fx-font-weight: bold;
+}
+
+#btninfinity:hover{
+      -fx-background-color: "Red";
+      -fx-text-fill: "white";
+}
+
+
+    /*
+    Notes
+
+    ✅ Good / Positive Actions (Success, Confirm, Save, Proceed)
+    Names / Hex codes:
+
+    css
+    -fx-background-color: "LimeGreen";      #32CD32
+    -fx-background-color: "MediumSeaGreen"; #3CB371
+    -fx-background-color: "SpringGreen";    #00FF7F
+    -fx-background-color: "ForestGreen";    #228B22
+    -fx-background-color: "SeaGreen";       #2E8B57
+    -fx-background-color: "DodgerBlue";     #1E90FF (info style)
+    -fx-background-color: "DeepSkyBlue";    #00BFFF
+
+    ❌ Bad / Negative Actions (Delete, Cancel, Danger, Stop)
+    Names / Hex codes:
+    css
+
+    -fx-background-color: "Crimson";        #DC143C
+    -fx-background-color: "FireBrick";      #B22222
+    -fx-background-color: "DarkRed";        #8B0000
+    -fx-background-color: "Tomato";         #FF6347
+    -fx-background-color: "IndianRed";      #CD5C5C
+    -fx-background-color: "OrangeRed";      #FF4500 (warning)
+    -fx-background-color: "DarkOrange";     #FF8C00 (warning variant)
+
+
+    -fx-font-family: "Segoe UI";
+    -fx-font-family: "Calibri";
+    -fx-font-family: "Arial";
+    -fx-font-family: "Helvetica Neue";
+    -fx-font-family: "Roboto";
+    -fx-font-family: "Open Sans";
+    -fx-font-family: "Lato";
+
+    -fx-font-family: "Montserrat";
+    -fx-font-family: "Poppins";
+    -fx-font-family: "Nunito";
+    -fx-font-family: "Inter";
+    -fx-font-family: "Ubuntu";
+    -fx-font-family: "Fira Sans";
+    -fx-font-family: "JetBrains Mono"; /* great for code-themed UI
+
+    -fx-font-family: "Georgia";
+    -fx-font-family: "Cambria";
+    -fx-font-family: "Garamond";
+    -fx-font-family: "Times New Roman";
+    -fx-font-family: "Palatino Linotype";
+    */
