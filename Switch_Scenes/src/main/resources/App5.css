@@ -1,0 +1,45 @@
+.root{
+        -fx-background-image: url('bg1.png');
+        -fx-background-repeat: no-repeat;
+        -fx-background-position: center center;
+        -fx-background-size: cover; /* cover / contain / auto */
+}
+
+
+#sc1{
+    -fx-text-fill: "white";
+    -fx-font-weight: 600;
+    -fx-effect: dropshadow(gaussian, black, 2, 0, 2, 2);
+    -fx-font-size: 26;
+    -fx-font-family: "Lato";
+    -fx-effect: gaussian-blur(15);
+}
+
+
+#nxtbtn {
+    -fx-background-color: #1E90FF;  /* DodgerBlue on hover */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-padding: 8 16;
+}
+
+#nxtbtn:hover {
+    -fx-background-color: #18baf0;
+}
+
+#prvbtn {
+    -fx-background-color: #ffb300;
+    -fx-text-fill: White;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-padding: 8 16;
+}
+
+#prvbtn:hover {
+    -fx-background-color: #c74201;
+}
