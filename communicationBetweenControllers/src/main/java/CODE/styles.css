@@ -1,11 +1,11 @@
-/* General background color for the VBox in scene1.fxml */
+/* Main app background color */
 .root {
-    -fx-background-color: #f4f7f6;
+    -fx-background-color: #1AB7EB;
 }
 
 /* Style for the main container VBox */
-.vbox {
-    -fx-background-color: #ffffff;
+.vbox-container {
+    -fx-background-color: #1AB7EB;
     -fx-border-radius: 15px;
     -fx-background-radius: 15px;
     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 5);
@@ -14,35 +14,35 @@
 /* Style for Labels */
 .label {
     -fx-font-family: "Segoe UI", sans-serif;
-    -fx-text-fill: #333333;
+    -fx-text-fill: #171717;
 }
 
 /* Main title label */
 .label-title {
     -fx-font-size: 24px;
     -fx-font-weight: bold;
-    -fx-text-fill: #00796b;
+    -fx-text-fill: #179CD1;
 }
 
 /* Text Field and Password Field styling */
 .text-field, .password-field, .choice-box {
     -fx-background-color: #f0f0f0;
     -fx-background-radius: 8px;
-    -fx-border-color: #cccccc;
+    -fx-border-color: #8FC9F2;
     -fx-border-radius: 8px;
     -fx-border-width: 1px;
     -fx-padding: 8px;
-    -fx-prompt-text-fill: #9e9e9e;
+    -fx-prompt-text-fill: #1C1C1C;
 }
 
 .text-field:focused, .password-field:focused, .choice-box:focused {
-    -fx-border-color: #00796b;
+    -fx-border-color: #179CD1;
     -fx-background-color: #e8f5e9;
 }
 
 /* Button styling */
 .button {
-    -fx-background-color: #00796b;
+    -fx-background-color: #179CD1;
     -fx-text-fill: #ffffff;
     -fx-font-size: 14px;
     -fx-font-weight: bold;
@@ -54,17 +54,38 @@
 }
 
 .button:hover {
-    -fx-background-color: #004d40;
+    -fx-background-color: #127CB0;
     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 8, 0, 0, 4);
 }
 
 .button:pressed {
-    -fx-background-color: #004d40;
+    -fx-background-color: #127CB0;
     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 2, 0, 0, 1);
 }
 
 /* Error Label styling */
 .label-error {
-    -fx-text-fill: #d32f2f;
+    -fx-text-fill: #FF5252;
     -fx-font-weight: bold;
+}
+
+/* Specific styles for the property cards on the dashboard */
+.property-card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2);
+    -fx-padding: 15px;
+    -fx-border-color: #8FC9F2;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+}
+
+.property-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #171717;
+}
+
+.property-info-label {
+    -fx-text-fill: #666666;
 }
