@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="800.0" spacing="20.0" style="-fx-background-color: #f4f7f6;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CODE.Scene2Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <!-- Dashboard Title -->
+        <Label text="Student Home Finder Dashboard" textFill="#333333">
+            <font>
+                <Font name="System Bold" size="28.0" />
+            </font>
+        </Label>
+        <!-- Welcome Message -->
+        <Label fx:id="welcomeLabel" text="Welcome, Student!" textFill="#00796b">
+            <font>
+                <Font size="18.0" />
+            </font>
+            <VBox.margin>
+                <Insets bottom="10.0" />
+            </VBox.margin>
+        </Label>
+
+        <!-- Main Content Area: A scrollable list of properties -->
+        <ScrollPane fitToWidth="true" hbarPolicy="NEVER" VBox.vgrow="ALWAYS">
+            <content>
+                <VBox alignment="TOP_CENTER" spacing="15.0" style="-fx-background-color: #ffffff; -fx-padding: 20;">
+                    <children>
+                        <Label text="Available Rooms" textFill="#333333">
+                            <font>
+                                <Font name="System Bold" size="22.0" />
+                            </font>
+                        </Label>
+
+                        <!-- Demo Property Card 1 -->
+                        <VBox style="-fx-background-color: #e8f5e9; -fx-background-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2); -fx-padding: 15;">
+                            <children>
+                                <Label text="Cozy Studio Apartment" textFill="#004d40">
+                                    <font>
+                                        <Font name="System Bold" size="16.0" />
+                                    </font>
+                                </Label>
+                                <HBox alignment="CENTER_LEFT" spacing="20.0">
+                                    <children>
+                                        <Label text="Location: Downtown Campus" textFill="#607d8b" />
+                                        <Label text="Price: $850/month" textFill="#00796b" />
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="5.0" />
+                                    </VBox.margin>
+                                </HBox>
+                                <Button style="-fx-background-color: #00796b; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 5;" text="View Details">
+                                    <VBox.margin>
+                                        <Insets top="10.0" />
+                                    </VBox.margin>
+                                </Button>
+                            </children>
+                        </VBox>
+
+                        <!-- Demo Property Card 2 -->
+                        <VBox style="-fx-background-color: #e8f5e9; -fx-background-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2); -fx-padding: 15;">
+                            <children>
+                                <Label text="Shared Room in a 3-Bedroom House" textFill="#004d40">
+                                    <font>
+                                        <Font name="System Bold" size="16.0" />
+                                    </font>
+                                </Label>
+                                <HBox alignment="CENTER_LEFT" spacing="20.0">
+                                    <children>
+                                        <Label text="Location: University Park" textFill="#607d8b" />
+                                        <Label text="Price: $450/month" textFill="#00796b" />
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="5.0" />
+                                    </VBox.margin>
+                                </HBox>
+                                <Button style="-fx-background-color: #00796b; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 5;" text="View Details">
+                                    <VBox.margin>
+                                        <Insets top="10.0" />
+                                    </VBox.margin>
+                                </Button>
+                            </children>
+                        </VBox>
+
+                        <!-- Demo Property Card 3 -->
+                        <VBox style="-fx-background-color: #e8f5e9; -fx-background-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2); -fx-padding: 15;">
+                            <children>
+                                <Label text="Private Room with Separate Entrance" textFill="#004d40">
+                                    <font>
+                                        <Font name="System Bold" size="16.0" />
+                                    </font>
+                                </Label>
+                                <HBox alignment="CENTER_LEFT" spacing="20.0">
+                                    <children>
+                                        <Label text="Location: East Side Neighborhood" textFill="#607d8b" />
+                                        <Label text="Price: $600/month" textFill="#00796b" />
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="5.0" />
+                                    </VBox.margin>
+                                </HBox>
+                                <Button style="-fx-background-color: #00796b; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 5;" text="View Details">
+                                    <VBox.margin>
+                                        <Insets top="10.0" />
+                                    </VBox.margin>
+                                </Button>
+                            </children>
+                        </VBox>
+                    </children>
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                </VBox>
+            </content>
+        </ScrollPane>
+
+        <!-- Logout Button -->
+        <HBox alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="200.0">
+            <children>
+                <Button onAction="#goToScene1" style="-fx-background-color: #d32f2f; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8; -fx-padding: 8 16;" text="Logout" />
+            </children>
+        </HBox>
+    </children>
+</VBox>
